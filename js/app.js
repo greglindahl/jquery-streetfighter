@@ -29,13 +29,13 @@ $(document).ready(function(){
 });
 
 $(document).keydown(function(e) {
-	if (e.keyCode == 88) {
+	if (e.keyCode === 88) {
 		$('.ryu-still').hide();
 		$('.ryu-cool').show();
 	}   
 })
 .keyup(function(e) {
-	if (e.keyCode == 88) {
+	if (e.keyCode === 88) {
 		$('.ryu-ready').hide();
 		$('.ryu-still').show();
 	}
